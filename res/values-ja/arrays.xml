@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_screen_orientation">
+        <item>デフォルト</item>
+        <item>自動回転</item>
+        <item>縦画面固定</item>
+        <item>横画面固定</item>
+    </string-array>
+    <string-array name="pref_screen_orientation_summaries">
+        <item>通常は回転しませんが、文字入力時には回転します。</item>
+        <item>システム設定の画面の自動回転を有効にしてください。</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="allapps_widgets_dropdown">
+        <item>ドロワー</item>
+        <item>リスト</item>
+    </string-array>
+    <string-array name="pref_show_qsb">
+        <item>表示しない</item>
+        <item>横画面時のみ表示</item>
+        <item>常に表示</item>
+    </string-array>
+    <string-array name="pref_desktop_margin">
+        <item>無効</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+</resources>
