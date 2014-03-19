@@ -25,8 +25,8 @@
     <string name="delete_zone_label_workspace">削除</string>
     <string name="delete_zone_label_all_apps">アンインストール</string>
     <string name="delete_target_label">削除</string>
-    <string name="delete_target_uninstall_label">アンインストール</string>
-    <string name="info_target_label">アプリケーション情報</string>
+    <string name="delete_target_uninstall_label">ｱﾝｲﾝｽﾄｰﾙ</string>
+    <string name="info_target_label">アプリ情報</string>
     <string name="accessibility_search_button">検索</string>
     <string name="accessibility_voice_search_button">音声検索</string>
     <string name="accessibility_all_apps_button">アプリ</string>
@@ -123,11 +123,11 @@
     <string name="nova_action_goto_screen">指定ページにジャンプ</string>
     <string name="nova_action_goto_screen_item">ページ%d</string>
     <string name="desktop_widget_qsb">クイック検索バー</string>
-    <string name="nova_action_toggle_notification_bar">通知バーを隠す</string>
-    <string name="nova_action_expand_notification_bar">通知バーを展開</string>
-    <string name="nova_action_expand_notification_settings_bar">クイック設定を展開</string>
+    <string name="nova_action_toggle_notification_bar">ステータスバーを隠す</string>
+    <string name="nova_action_expand_notification_bar">ステータスバーを開く</string>
+    <string name="nova_action_expand_notification_settings_bar">クイック設定を開く</string>
     <string name="nova_action_show_recent_apps">アプリ履歴</string>
-    <string name="nova_action_voice_search">ボイスサーチ</string>
+    <string name="nova_action_voice_search">音声検索</string>
     <string name="nova_action_text_search">検索</string>
     <string name="nova_action_toggle_dock">ドック表示切替え</string>
     <string name="select">選択</string>
@@ -158,7 +158,7 @@
     <string name="preference_header_gestures_buttons_summary">ジェスチャーやボタンに割り当てる機能を選択します。</string>
     <string name="preference_header_look_feel">外観と操作感</string>
     <string name="preference_header_look_feel_summary">"全体に適用される視覚効果です。
-デスクトップ、ドロワー、ドックの各カテゴリを参照してください。"</string>
+デスクトップ、ドロワー、ドックの各カテゴリも見てください。"</string>
     <string name="preference_header_backup_summary">他のランチャーからレイアウトをインポートしたりNovaの設定のバックアップをします。</string>
     <string name="preference_header_labs">試験実装機能</string>
     <string name="preference_header_labs_summary">試験的な設定です。これらのオプションの変更についてはサポート対象外です。</string>
@@ -283,7 +283,7 @@
     <string name="preference_animation_speed_ftl_summary">アニメーションを忘れ、光速でスクロールします。</string>
     <string name="preference_activity_animation">アプリアニメーション</string>
     <string name="preference_activity_animation_summary">新しいアプリを開いたり、ホーム画面に戻る時のアニメーションを変更します。</string>
-    <string name="preference_show_notification_bar">通知バーを表示</string>
+    <string name="preference_show_notification_bar">ステータスバーを表示</string>
     <string name="preference_transparent_notification_bar">ステータスバーの透過</string>
     <string name="preference_transparent_notification_bar_summary">この機能はお使いのシステム/ROMがサポートしていてなおかつ、サードパーティー製アプリに機能の使用を許可している場合にのみ利用できます</string>
     <string name="preference_notification_bar_hide_clock">時計を非表示にする</string>
@@ -298,10 +298,10 @@
     <string name="preference_widget_overlap_when_placing_summary">既にウィジェットがある場所に別のウィジェットを移動させることで重複配置することができます。</string>
     <string name="preference_lock_desktop">デスクトップをロック</string>
     <string name="preference_lock_desktop_summary">デスクトップの変更を防止します。</string>
-    <string name="preference_lock_desktop_dialog_title">デスクトップはロックされています。</string>
-    <string name="preference_lock_desktop_dialog">デスクトップの変更を許可するには鍵アイコンを長押しします。</string>
+    <string name="preference_lock_desktop_dialog_title">ロック中</string>
+    <string name="preference_lock_desktop_dialog">鍵アイコンを長押しするとデスクトップの変更を許可します。</string>
     <string name="preference_lock_desktop_dialog_relock">自動的に再ロック</string>
-    <string name="preference_lock_desktop_dialog_relock_summary">Nova Launcherを離れるか、スクリーンオフで自動的に再ロックされます。</string>
+    <string name="preference_lock_desktop_dialog_relock_summary">Nova Launcherを離れるか、画面オフで自動的に再ロックされます。</string>
     <string name="preference_lock_desktop_dialog_no_relock_summary">デスクトップのロックが解除されたままになります。手動で 設定>デスクトップ>デスクトップをロック からロ​​ックする必要があります。</string>
     <string name="preference_button_actions">ボタンアクション</string>
     <string name="preference_home_button">ホームボタン</string>
@@ -392,7 +392,7 @@
     <string name="wallpaper_mode_reverse_summary">壁紙がデスクトップと反対方向にスクロールすることで強い視差効果が得られます。</string>
     <string name="wallpaper_mode_static_summary">ライブ壁紙の場合はスクロールしません。</string>
     <string name="wallpaper_mode_delayed_summary">壁紙のスクロールは遅れますが、ライブ壁紙のパフォーマンスが向上します。</string>
-    <string name="wallpaper_mode_manual_summary">USA版Galaxy S2などのような壁紙のスクロールに対応していない端末でも壁紙をスクロールさせます。</string>
+    <string name="wallpaper_mode_manual_summary">壁紙のスクロールに対応していない端末でも壁紙をスクロールさせます。</string>
     <string name="wallpaper_livewallpapers">ライブ壁紙</string>
     <string name="system">システム</string>
     <string name="anim_slide">スライド</string>
@@ -405,11 +405,11 @@
     <string name="import_launcher">デスクトップのアイテムを%sからインポートします。</string>
     <string name="import_launcher_summary">%2$d枚のページ、%3$dつのフォルダ、%4$d枚のドックページ、%1$dつのアイテムが見つかりました。</string>
     <string name="import_launcher_widget_note">注：ウィジェットは自動的にインポートされません。Nova Launcherは代わりにプレースホルダを作成し、それをタップすることでウィジェットを再作成します。</string>
-    <string name="import_launcher_root_summary">ルート経由でウィジェットに関する情報の取得を試み、いくつかのウィジェットの自動回復を可能にします。</string>
+    <string name="import_launcher_root_summary">root権限を使いウィジェットに関する情報の取得を試み、一部のウィジェットの自動回復を可能にします。</string>
     <string name="other">その他</string>
     <string name="crop_full">フル</string>
     <string name="crop_free">フリー</string>
-    <string name="setting_wallpaper">壁紙の設定…</string>
+    <string name="setting_wallpaper">壁紙の設定</string>
     <string name="preparing_image">画像を準備しています</string>
     <string name="set_wallpaper">壁紙の設定</string>
     <string name="save_error">トリミングされた画像を保存できませんでした。</string>
@@ -441,11 +441,11 @@
     <string name="delete_this_folder">このフォルダを削除しますか？</string>
     <string name="delete_this_folder_desktop_shortcuts">このフォルダとすべてのデスクトップショートカットを削除しますか？</string>
     <string name="delete_this_folder_desktop_shortcuts_long">デスクトップのショートカットを保持するためにフォルダを非表示にします。</string>
-    <string name="edit_drawer_entry">ドロワーのエントリーを編集</string>
+    <string name="edit_drawer_entry">ドロワーのエントリを編集</string>
     <string name="done">完了</string>
     <string name="background">バックグラウンド</string>
     <string name="notification_bar">ステータスバー</string>
-    <string name="play_policy_beta_update">Google Playは利用規約で、Playストアからインストールされたアプリがベータアップデートを自動で行うことを許可していません。ベータテストに興味がおありの場合、 http://novalauncher.com/beta からダウンロードしてください。</string>
+    <string name="play_policy_beta_update">Google Playは利用規約で、Playストアからインストールされたアプリがベータアップデートを自動で行うことを許可していません。ベータテストに興味がある場合、 http://novalauncher.com/beta からダウンロードしてください。</string>
     <string name="dock_style">ドックのスタイル</string>
     <string name="fillmode_fill">塗りつぶし</string>
     <string name="fillmode_repeat">繰り返し</string>
@@ -481,4 +481,16 @@
     <string name="transparency">透過度</string>
     <string name="color_filter">カラーフィルター</string>
     <string name="light_background">明るい背景</string>
+   <string name="send">送信</string>
+    <string name="preference_small_tabs">タブの最小化</string>
+    <string name="preference_small_tabs_summary">自動的に非表示にしてアプリ一覧を全画面表示できるよう、タブを小さくします。</string>
+    <string name="check_automatically">自動的に確認</string>
+    <string name="check_for_updates">更新の確認…</string>
+    <string name="current_version">現在: <b>%s</b></string>
+    <string name="up_to_date">%sの最新版を使用中です。</string>
+    <string name="changelog">更新履歴</string>
+    <string name="latest_version">最新: <b>%s</b></string>
+    <string name="latest_version_checking">最新: <i>確認中...</i></string>
+    <string name="update">更新</string>
+    <string name="downloading_update">更新のダウンロード中…</string>
 </resources>
