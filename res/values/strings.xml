@@ -2,5 +2,6 @@
 <resources>   
 
     <string name="app_name">Nova Launcher Translate</string>
+    <string name="app_desc">Nova Launcher Translation</string>
     
 </resources>
